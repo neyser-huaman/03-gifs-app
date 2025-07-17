@@ -6,7 +6,7 @@ interface MenuOption{
   icon: string,
   label: string,
   route: string,
-  sublabel: string
+  subLabel: string
 }
 
 @Component({
@@ -20,16 +20,16 @@ export class SideMenuOptionsComponent {
     {
     icon: 'fa-solid fa-chart-line',
     label: 'Trending',
-    sublabel: 'Gifs Populares',
-    route: '/dashboard/treding'
+    subLabel: 'Gifs Populares',
+    route: '/dashboard/trending'
     },
     {
     icon: 'fa-solid fa-magnifying-glass',
     label: 'Buscador',
-    sublabel: 'Buscar Gifs',
+    subLabel: 'Buscar Gifs',
     route: '/dashboard/search'
-    }
-  ]
+    },
+  ];
 
 
  }
